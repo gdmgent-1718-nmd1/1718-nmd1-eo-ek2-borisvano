@@ -15,4 +15,30 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+/* concurrentie links
+.button-3 {
+    color: white;
+    background-color: rgb(54,54,54);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.button-3:hover {
+    color: rgb(54,54,54);
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(54,54,54);
+    background-color: white;
+}
+
+*/
