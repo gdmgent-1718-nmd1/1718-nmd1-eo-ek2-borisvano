@@ -42,3 +42,28 @@ a:hover {
 }
 
 */
+
+.color{
+    width: 150px;
+    height: 150px;
+    float: left;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.roze{
+    background-color: #D55888;
+}
+.zwart{
+    background-color: #464354;
+}
+.donkergrijs{
+    background-color: #69667F;
+}
+.paars{
+    background-color: #666699;
+}
+.blauw{
+    background-color: #56A8CC;
+}
