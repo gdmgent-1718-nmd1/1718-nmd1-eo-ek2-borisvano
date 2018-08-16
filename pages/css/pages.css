@@ -12,7 +12,8 @@ body {
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%;
+    height: auto;
 }
 
 .roze{
@@ -48,31 +49,6 @@ img {
     border-radius: 10px;
 }
 
-/*.flex2  {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    text-align: center;
-    align-items: center;    
-}
-
-.flex2 > div {
-    width: 150px;
-    height: 20px;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    margin-right: 20px;
-    border-radius: 5px;
-}
-
-.border{
-    border: 2px solid #69667F;
-    background-color: none;
-    color: #69667F;
-}
-*/
-
 .knoppen    {
     display: flex;
     text-align: center;
@@ -80,11 +56,11 @@ img {
 }
 
 .knop1  {
-    color: white;
+    color: #FFF;
     background-color: #56A8CC;
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
-    font-size: 38pt;
+    font-size: 16pt;
     padding-left: 73px;
     padding-right: 73px;
     padding-top: 10px;
@@ -94,19 +70,25 @@ img {
 }
 
 .knop2  {
+    color: #69667F;
+    background-color: none;
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
-    font-size: 38pt;
+    font-size: 16pt;
     padding-left: 73px;
     padding-right: 73px;
     padding-top: 10px;
     padding-bottom: 10px;
-
-    border: 2px solid #69667F;
-    background-color: none;
-    color: #69667F;
+    margin-right: 20px;
     border-radius: 5px;
+    border: 2px solid #69667F;
 }
+
+.tekstknoppen{
+    display: flex;
+}
+
+
 
 h1  {
     font-family: 'nunito', 'sans-serif';
